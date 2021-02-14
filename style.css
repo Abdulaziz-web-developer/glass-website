@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #426696;
+    font-weight: 600;
+
+    opacity: 0.8;
+  }
+  h2,
+  p {
+    color: #658ec6;
+    font-weight: 500;
+    opacity: 0.8;
+  }
+  
+  h3 {
+    color: #426696;
+    font-weight: 600;
+    opacity: 0.8;
+  }
+  
+  main {
+    font-family: "Poppins", sans-serif;
+    height: 100vh;
+    background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .glass {
+    
+    background: white;
+    min-height: 60vh;
+    width: 60%;
+    background: linear-gradient(
+      to right bottom,
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.3)
+    );
+    border-radius: 2rem;
+      z-index: 1;
+    backdrop-filter: blur(2rem);
+
+  }
+  .circle1,
+  .circle2 {
+    background: white;
+    background: linear-gradient(
+      to right bottom,
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.3)
+    );
+    height: 10rem;
+    width: 10rem;
+    position: absolute;
+    border-radius: 50%;
+  }
+  
+  .circle1 {
+    top: 7%;
+    right: 15%;
+  }
+  .circle2 {
+    bottom: 5%;
+    left: 11%;
+  }
+ .about{
+   text-align: center;
+ }
+ .glass{
+   font-size:1.5em;
+   font-weight: 0.7;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+a{
+  text-decoration: none;
+  color:#405e88;
+  cursor: help;
+}
+a:hover{
+  text-decoration: underline;
+}
